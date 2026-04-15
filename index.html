@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us - Fiscal FX</title>
+  <title>8x8 Demo - Contact Us - Fiscal FX</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -473,6 +473,13 @@
       right: 20px;
       z-index: 9999;
     }
+    /* ── AI STUDIO WIDGET ── */
+    #ai-studio-widget-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
   </style>
 </head>
 <body>
@@ -693,6 +700,12 @@
       </span>
     </div>
   </footer>
+
+  <!-- ── AI STUDIO WIDGET — fixed bottom right ── -->
+  <div id="ai-studio-widget-container">
+    <ai-studio-widget widget-id="wgt_drift_b1ba6e48"></ai-studio-widget>
+    <script src="https://widget.ai.8x8.vc/v1/ai-studio-widget.js" async></script>
+  </div>
 
   <!-- Place this code snippet anywhere you want the button to appear in your page. If no button has been configured in the chat script, it will not show up nor take any space. -->
   <div id="__8x8-chat-button-container-script_1493918123696e2dfbe10540.79726509"></div>
